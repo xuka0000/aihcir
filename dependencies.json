@@ -1,0 +1,226 @@
+{
+  "external_import_names": [
+    "PIL",
+    "acquire_primary_on_guard",
+    "admit_oct07_material",
+    "airsim",
+    "amodal_intervention",
+    "analyze_oct07_image_campaign",
+    "assemble_oct07_public_data",
+    "audit_color_language",
+    "audit_latent_direction",
+    "audit_observation_coverage",
+    "audit_semantic_gate",
+    "autogen",
+    "benchmark",
+    "build_public_mcq_teacher_release",
+    "carla",
+    "cloud_services",
+    "collect_runtime_views",
+    "condition_candidate_preview",
+    "construction_routes",
+    "cv2",
+    "deploy_oct07_image_campaign",
+    "deploy_oct07_scene_repair",
+    "derive_oct07_baseline_targets",
+    "diagnose_ground_clamp",
+    "export_oct07_tonight_evidence",
+    "fast_instance_visibility",
+    "flight_feedback",
+    "geometry",
+    "huggingface_hub",
+    "independent_metric",
+    "jinja2",
+    "latent_direction_control",
+    "make_settings",
+    "merge_oct07_interface_evidence",
+    "native_sensor_storage",
+    "native_stencil_state",
+    "numpy",
+    "observe_detached_runtime",
+    "oct07_active_protection",
+    "oct07_additional_author_adapters",
+    "oct07_agentverse_adapter",
+    "oct07_author_adapters",
+    "oct07_baseline_freeze",
+    "oct07_capture_protocol",
+    "oct07_capture_scope",
+    "oct07_engineering_pipeline",
+    "oct07_fit_identity",
+    "oct07_image_core",
+    "oct07_independent_score",
+    "oct07_llm_planner_adapter",
+    "oct07_material_budget",
+    "oct07_material_probe_v4",
+    "oct07_material_resume",
+    "oct07_native_detail_profile",
+    "oct07_native_exposure_profile",
+    "oct07_native_geometry_diagnosis",
+    "oct07_native_group_lanes",
+    "oct07_native_visual_inventory",
+    "oct07_output_store",
+    "oct07_pipeline_preflight",
+    "oct07_prospective_camera_cover",
+    "oct07_qualification_budget",
+    "oct07_qualification_resume",
+    "oct07_runtime_scope",
+    "oct07_scene_geometry_v4",
+    "oct07_scene_preservation",
+    "oct07_ssh_once",
+    "oct07_stage_freeze",
+    "oct07_trace_selector",
+    "official_self_refine_task",
+    "own_rgb_baselines_20261002",
+    "pandas",
+    "paramiko",
+    "pilot_comparison",
+    "pilot_spatial_control",
+    "pixel_visibility",
+    "prepare_oct07_first_manuscript",
+    "prepare_oct07_image_campaign",
+    "prepare_oct07_scene_repair",
+    "prepare_oct07_tonight_core",
+    "prepare_public_mcq_teacher",
+    "provision_public_mcq_runtime",
+    "psutil",
+    "public_crossview",
+    "public_mcq_cloud_guard",
+    "qualify_output_grammar_cpu_20260929",
+    "render_replay",
+    "renderer_weather",
+    "replay_oct07_native_geometry",
+    "requests",
+    "run_oct07_image_campaign",
+    "run_oct07_scene_node",
+    "run_public_mcq_teacher_autodl",
+    "run_symmetric_development_20260929",
+    "run_symmetric_full_campaign_20260930",
+    "runtime_artifacts",
+    "runtime_frame_probe",
+    "sacrebleu",
+    "scene_catalog_crossview_v4",
+    "scene_catalog_crossview_v5",
+    "scene_catalog_crossview_v6",
+    "scene_catalog_crossview_v7",
+    "scene_catalog_progressive_candidates",
+    "scene_catalog_v2",
+    "scene_paths",
+    "score_oct07_native_bbox",
+    "sentence_transformers",
+    "static_box_clearance",
+    "static_transit",
+    "stencil_control",
+    "supervise_public_mcq_teacher",
+    "survey_geometry",
+    "tokenizers",
+    "torch",
+    "trace_evidence_memory",
+    "transformers",
+    "transit_corridor_diagnostic",
+    "visual_condition_geometry"
+  ],
+  "dynamic_calls": [
+    {
+      "file": "scripts/execute_oct07_admitted_pipeline.py",
+      "line": 91,
+      "call": "subprocess.Popen(cmd, stdin=subprocess.DEVNULL, stdout=stream, stderr=stream, start_new_session=True)"
+    },
+    {
+      "file": "scripts/run_symmetric_development_20260929.py",
+      "line": 32,
+      "call": "subprocess.run([sys.executable, '-X', 'utf8', str(ROOT / 'scripts/team_runtime.py'), 'report', '--task', TASK, '--progress', str(p), '--current-step', step], capture_output=True, encoding='utf-8')"
+    },
+    {
+      "file": "scripts/run_symmetric_development_20260929.py",
+      "line": 124,
+      "call": "subprocess.run(['curl.exe', '--fail', '--location', '--silent', '--show-error', '--connect-timeout', '8', '--max-time', '30', '--max-filesize', '15000000', '--output', str(partial), url], capture_output=True, timeout=30)"
+    },
+    {
+      "file": "scripts/qualify_output_grammar_cpu_20260929.py",
+      "line": 52,
+      "call": "subprocess.run([sys.executable, '-X', 'utf8', str(ROOT / 'scripts/team_runtime.py'), 'report', '--task', TASK, '--progress', str(path), '--current-step', step], capture_output=True, text=True, encoding='utf-8')"
+    },
+    {
+      "file": "scripts/qualify_output_grammar_cpu_20260929.py",
+      "line": 107,
+      "call": "subprocess.run(['curl.exe', '--fail', '--location', '--silent', '--show-error', '--connect-timeout', '10', '--max-time', '30', '--max-filesize', '15000000', '--output', str(partial), urls[attempt]], capture_output=True, timeout=32)"
+    },
+    {
+      "file": "scripts/oct07_author_adapters.py",
+      "line": 232,
+      "call": "obj.run(t, 'observation', {}, [], [], [[], [], []], {}, histories[agent], dialogs[agent])"
+    },
+    {
+      "file": "scripts/oct07_agentverse_adapter.py",
+      "line": 106,
+      "call": "asyncio.run(env.step(advice, previous))"
+    },
+    {
+      "file": "scripts/deploy_oct07_image_campaign.py",
+      "line": 149,
+      "call": "importlib.util.spec_from_file_location('aihcirstorageguard', guard_path)"
+    },
+    {
+      "file": "scripts/deploy_oct07_image_campaign.py",
+      "line": 626,
+      "call": "subprocess.Popen([sys.executable, '-B', '-u', str(Path(__file__).resolve()), 'guard', '--guard-folder', str(folder)], stdout=log, stderr=log, creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0)"
+    },
+    {
+      "file": "scripts/deploy_oct07_image_campaign.py",
+      "line": 774,
+      "call": "subprocess.Popen([sys.executable, '-u', '-B', str(Path(__file__).resolve()), 'guard', '--release', RELEASE], stdout=log, stderr=subprocess.STDOUT, creationflags=subprocess.CREATE_NO_WINDOW | subprocess.CREATE_NEW_PROCESS_GROUP if os.name == 'nt' else"
+    },
+    {
+      "file": "scripts/run_public_mcq_teacher_autodl.py",
+      "line": 115,
+      "call": "subprocess.Popen([sys.executable, '-u', str(Path(__file__).with_name('public_mcq_cloud_guard.py')), '--folder', str(self.folder.resolve()), '--control-script', str(self.script.resolve())], stdout=self.log, stderr=subprocess.STDOUT, start_new_session="
+    },
+    {
+      "file": "scripts/public_mcq_cloud_guard.py",
+      "line": 69,
+      "call": "importlib.util.spec_from_file_location('owned_autodl_control', script)"
+    },
+    {
+      "file": "scripts/supervise_public_mcq_teacher.py",
+      "line": 182,
+      "call": "subprocess.Popen(command, stdout=log, stderr=subprocess.STDOUT, start_new_session=os.name == 'posix', creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0)"
+    },
+    {
+      "file": "scripts/deploy_oct07_scene_repair.py",
+      "line": 322,
+      "call": "importlib.util.spec_from_file_location('aihcirstorage_guard', bridge)"
+    },
+    {
+      "file": "scripts/deploy_oct07_scene_repair.py",
+      "line": 403,
+      "call": "subprocess.run(['curl.exe' if os.name == 'nt' else 'curl', '--silent', '--show-error', '--connect-timeout', '5', '--max-time', '10', '--output', 'NUL' if os.name == 'nt' else '/dev/null', '--write-out', '%{http_code}', 'https://www.gstatic.com/genera"
+    },
+    {
+      "file": "scripts/deploy_oct07_scene_repair.py",
+      "line": 592,
+      "call": "subprocess.Popen([sys.executable, '-B', '-u', str(ROOT / 'scripts/deploy_oct07_image_campaign.py'), 'guard', '--guard-folder', str(folder)], stdout=guardlog, stderr=subprocess.STDOUT, creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else "
+    },
+    {
+      "file": "scripts/deploy_oct07_scene_repair.py",
+      "line": 781,
+      "call": "subprocess.run([sys.executable, '-B', str(command), *map(str, arguments)], capture_output=True, text=True, encoding='utf-8', timeout=30)"
+    },
+    {
+      "file": "scripts/deploy_oct07_scene_repair.py",
+      "line": 1081,
+      "call": "subprocess.Popen([sys.executable, '-B', '-u', str(ROOT / 'scripts/deploy_oct07_image_campaign.py'), 'guard', '--guard-folder', str(folder)], stdout=log, stderr=log, creationflags=subprocess.CREATE_NO_WINDOW if os.name == 'nt' else 0)"
+    },
+    {
+      "file": "scripts/run_oct07_scene_node.py",
+      "line": 288,
+      "call": "subprocess.Popen(args, cwd=prepared['runtime'], stdout=log, stderr=log, start_new_session=True)"
+    },
+    {
+      "file": "scripts/run_oct07_scene_node.py",
+      "line": 337,
+      "call": "subprocess.Popen(command, stdout=stream, stderr=stream, stdin=subprocess.DEVNULL, env=env, start_new_session=True)"
+    }
+  ],
+  "dependency_type": "static import closure plus known original search roots; runtime assets remain external",
+  "training_evaluation_configs": "Required campaign manifests and CLI arguments are enforced in the included entrypoints; private production records not distributed."
+}
